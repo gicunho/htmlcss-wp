@@ -11,6 +11,10 @@
     display: table;
     clear: both;
 }
+
+p:not(#banner_text > p){
+    color: #878787;
+}
 /* /Common Classes */
 
 /* Utility Classes */
@@ -68,34 +72,39 @@ li > a{
 }
 
 /* Topic Classes */
-#topic{
-    height: 50px;
-    background-color: darkorange;
-}
 
-.topic_container{
-    width: 100%;
-}
-
-.topic_container aside{
+.topic_container aside, #main_topic{
     width: 20%;
-    height: 400px;
     float: left;
 }
 
-#left_sidebar{
-    background-color: violet;
-}
-
-#right_sidebar{
-    background-color: seagreen;
+.topic_foto{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #main_topic{
     width: 60%;
-    height: 400px;
-    float: left;
-    background-color: salmon;
+    padding: 0 20px 0 20px;
+}
+
+#leftside_foto{
+    background-image: url(../img/img-1.jpg);
+}
+
+#mainside_foto{
+    background-image: url(../img/banner-2.jpg);
+}
+
+#rightside_foto{
+    background-image: url(../img/img-3.jpg);
+    background-size: 130%;
+}
+
+section > h4{
+    margin: 1rem 0 0.5rem 0;
 }
 
 /* /Topic Classes */
