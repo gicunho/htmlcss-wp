@@ -1,0 +1,71 @@
+/* Common Classes */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* /Common Classes */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#site_header{
+    height: 100px;
+    background-color: red;
+}
+
+nav{
+    height: 50px;
+    background-color: blue;
+}
+
+#foto{
+    height: 300px;
+    background-color: chartreuse;
+}
+
+/* Topic Classes */
+#topic{
+    height: 50px;
+    background-color: darkorange;
+}
+
+.topic_container{
+    width: 100%;
+}
+
+.topic_container aside{
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+
+#left_sidebar{
+    background-color: violet;
+}
+
+#right_sidebar{
+    background-color: seagreen;
+}
+
+#main_topic{
+    width: 60%;
+    height: 400px;
+    float: left;
+    background-color: salmon;
+}
+
+/* /Topic Classes */
+
+#site_footer{
+    height: 50px;
+    background-color: aqua;
+}
