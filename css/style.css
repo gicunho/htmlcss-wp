@@ -106,10 +106,14 @@ li > a{
 section > h4{
     margin: 1rem 0 0.5rem 0;
 }
-
 /* /Topic Classes */
 
 #site_footer{
-    height: 50px;
-    background-color: aqua;
+text-align: center;
+}
+
+#site_footer > h4::after{
+    content: "\2665";
+    color: red;
+    font-size: 1.5rem;
 }
