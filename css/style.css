@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Istok Web', sans-serif;
 }
 
 .clearfix::after{
@@ -18,13 +19,27 @@
 }
 
 #site_header{
-    height: 100px;
-    background-color: red;
+    height: 50px;
+}
+
+#logo_image{
+    height: 100%;
 }
 
 nav{
-    height: 50px;
-    background-color: blue;
+    margin: 20px 0 20px 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li > a{
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #878787;
+   margin-right: 10px;
 }
 
 #foto{
