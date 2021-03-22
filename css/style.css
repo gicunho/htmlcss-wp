@@ -62,7 +62,7 @@ li > a{
     height: 400px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
-    background-position-y: center;
+    background-position: auto center;
     color: white;
 }
 
